@@ -1,3 +1,27 @@
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
 /*Bootstrap Overrides */
 .container{
   max-width: 970px;
@@ -62,7 +86,7 @@ body {
   height: 111px;
   background: #134670;
   position: relative;
-  /* Shout out to https://css-tricks.com/snippets/css/a-guide-to-flexbox/ for being a great bookmark */ 
+  /* Shout out to https://css-tricks.com/snippets/css/a-guide-to-flexbox/ for being a great bookmark */
   display: flex;
 }
 
@@ -199,7 +223,7 @@ body {
   vertical-align: top;
   float: right;
   border-radius: 2px;
-  border: 1px solid #2db55b;  
+  border: 1px solid #2db55b;
   z-index: 1;
 }
 .page-header .search-box:focus {
@@ -403,7 +427,7 @@ section {
   counter-reset: task-counter;
   padding: 0;
   margin: 0;
-} 
+}
 .task-list li {
   padding: 7px 0;
   font-size: 21px;
@@ -785,6 +809,7 @@ section {
   position: relative;
   display: flex;
   width: 100%;
+  height: 150px;
   border-radius: 3px;
   background: #2498f4;
   color: white;

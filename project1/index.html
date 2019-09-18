@@ -162,13 +162,18 @@
             </section>
             <section class="quote">
               <div class="quote-box">
-                <div class="quote-arrow i-caret-left">
+                <div class="quote-arrow i-caret-left"  onclick="plusSlides(1)">&#10095;>
                 </div>
-                <div class="quote-content">
-                  <h6>Did you know?</h6>
-                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
-                </div>
-                <div class="quote-arrow i-caret-right">
+
+                <div class="mySlides fade">
+                      <img src="img/oof.png" style="width: 100%">
+                  </div>
+
+                  <div class="mySlides fade">
+                      <img src="img/oof.png" style="width:100%">
+                  </div>
+
+                <div class="quote-arrow i-caret-right" onclick="plusSlides(-1)">&#10094;>
                 </div>
               </div>
             </section>
@@ -227,7 +232,7 @@
     // Set caret to initial position
     setCaret(true);
 
-    // Move caret and .selected class on icon click  
+    // Move caret and .selected class on icon click
     document.querySelectorAll('.main-nav-icons li')
     .forEach( (icon) =>
       icon.onclick = () => {
