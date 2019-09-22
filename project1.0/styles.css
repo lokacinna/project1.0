@@ -1,0 +1,34 @@
+.top-bar{
+  width: 100%;
+  background: linear-gradient(90deg, #2498f4, #1d85d8);
+  height: 50px;
+}
+
+/* for slick */
+
+.slide {
+  position: relative;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
