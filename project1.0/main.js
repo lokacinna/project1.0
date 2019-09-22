@@ -7,10 +7,14 @@ $( function() {
 // slide jQuery (slick)
 
 $(".single-item").slick({
-  arrows: false,
+  arrows: true,
   autoplay: true,
-  dots: false
+  dots: false,
+  prevArrow: $('.i-caret-left'),
+  nextArrow: $('.i-caret-right')
 });
+
+
 
 // // sets variable to one
 //
