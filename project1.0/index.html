@@ -109,11 +109,14 @@
                   <img class="activity-graph" src="img/graph.png" alt="Activity Graph"/>
                 </div>
                 <div class="analytics-pies">
-                  <div class="pie-chart" title="img/tooltip.png">
+                  <div class="pie-chart" data-tooltip-content="#tooltip_content">>
                     <h6 class="subtitle">Channels</h6>
                     <img src="img/pie1.svg" alt="Channels">
+                      <span id="tooltip_content">
+                        <img src="img/tooltip.png">
+                      </span>
                   </div>
-                  <div class="pie-chart" title="img/tooltip.png">
+                  <div class="pie-chart" data-tooltip-content="#tooltip_content">>
                     <h6 class="subtitle">Referrals</h6>
                     <img src="img/pie2.svg" alt="Referrals">
                   </div>
