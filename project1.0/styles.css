@@ -4,6 +4,8 @@
   height: 50px;
 }
 
+.tooltip_templates { display: none; }
+
 /* for slick */
 
 .slick-slide {

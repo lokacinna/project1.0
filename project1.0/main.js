@@ -1,6 +1,8 @@
 // tooltip attempt
 
-$(".pie-chart").tooltipster();
+$(".pie-chart").tooltipster({
+  contentCloning: true
+});
 
 // slide jQuery (slick)
 
