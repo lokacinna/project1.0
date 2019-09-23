@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
 </head>
 <body>
   <header class="top-bar clearfix">
@@ -44,8 +46,8 @@
           <h6 class="announcements-title">Announcements</h6>
           <div class="announcements-text">
             <div class="single-item">
-            <div>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</div>
-            <div>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</div>
+            <div>1. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</div>
+            <div>2. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</div>
           </div>
           </div>
           <div class="announcements-buttons">
@@ -107,11 +109,11 @@
                   <img class="activity-graph" src="img/graph.png" alt="Activity Graph"/>
                 </div>
                 <div class="analytics-pies">
-                  <div class="pie-chart">
+                  <div class="pie-chart" title="img/tooltip.png">
                     <h6 class="subtitle">Channels</h6>
                     <img src="img/pie1.svg" alt="Channels">
                   </div>
-                  <div class="pie-chart">
+                  <div class="pie-chart" title="img/tooltip.png">
                     <h6 class="subtitle">Referrals</h6>
                     <img src="img/pie2.svg" alt="Referrals">
                   </div>
@@ -225,6 +227,7 @@
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="main.js"></script>
   <script type="text/javascript">

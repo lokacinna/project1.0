@@ -6,8 +6,8 @@
 
 /* for slick */
 
-.slide {
-  position: relative;
+.slick-slide {
+  overflow: hidden;
 }
 
 /* Fading animation */

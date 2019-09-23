@@ -1,8 +1,8 @@
 // tooltip attempt
 
-$( function() {
-   $( document ).tooltip();
- } );
+$(".pie-chart").tooltipster({
+  theme: 'tooltipster-shadow'
+});
 
 // slide jQuery (slick)
 
